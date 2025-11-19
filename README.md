@@ -22,11 +22,11 @@ Frequency Modulation (FM) is a method of transmitting information over a carrier
 
 ### PROGRAM
 ~~~
-Am = 7;
-fm = 653;
-fs = 65300;
-Ac = 14;
-fc = 6530;
+Am = 3.4;
+fm = 283;
+fs = 28300;
+Ac = 6.8;
+fc = 2830;
 b = 4;
 t = 0:1/fs:2/fm;
 m = Am * cos(2 * 3.14 * fm * t);
@@ -64,10 +64,8 @@ xgrid();
 ~~~
 
 ### TABULATION
-![WhatsApp Image 2025-11-18 at 19 49 33_7d647e4f](https://github.com/user-attachments/assets/8c3cd784-a108-4050-9272-c8ae02bfe725)
 
 ### OUTPUT
- <img width="692" height="576" alt="image" src="https://github.com/user-attachments/assets/bb0c7e16-ef07-4007-a6a9-2495b1cd7d4b" />
   
 ### RESULT
 The message signal, carrier signal, and frequency modulated (FM) signal will be displayed in separate plots. 
